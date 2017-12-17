@@ -3,8 +3,9 @@
 'use strict';
 
 var NorrisBot = require('../lib/norrisbot');
+var pwd = require('./pwd');
 
-var token = 'xoxb-287169468385-pKcFDi7l9EzNres6ylEbM21s';
+var token = pwd.token;
 var dbPath = process.env.BOT_DB_PATH;
 var name = 'onboardingroboto';
 
