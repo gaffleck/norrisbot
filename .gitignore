@@ -1,3 +1,4 @@
 node_modules/
 .DS_Store
 pwd.js
+run.sh
