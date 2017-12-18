@@ -11,7 +11,6 @@
   "dependencies": {
     "fs": "0.0.1-security",
     "natural": "^0.5.4",
-    "slackbots": "^0.3.0",
-    "sqlite3": "^3.1.13"
+    "slackbots": "^0.3.0"
   }
 }
