@@ -2,7 +2,8 @@ var messages = {
 	
 	NOT_FOUND: {
     "text": "I can't find that command",
-    "attachments": [
+    "as_user":true,
+    "attachments": JSON.stringify( [
         {
             "text": "What would you like to do?",
             "fallback": "Help not supported",
@@ -36,9 +37,42 @@ var messages = {
                     }
                 }
             ]
+            
         }
-    ]
+    ])
 }
 }
 
 module.exports = messages;
+
+/*
+
+"actions": [
+                {
+                    "name": "selection",
+                    "text": "Try Another Command",
+                    "type": "button",
+                    "value": "tryagain"
+                },
+                {
+                    "name": "selection",
+                    "text": "See All Options",
+                    "type": "button",
+                    "value": "seeall"
+                },
+                {
+                    "name": "game",
+                    "text": "Ask for help",
+                    "style": "danger",
+                    "type": "button",
+                    "value": "help",
+                    "confirm": {
+                        "title": "Are you sure?",
+                        "text": "We'll message your manager and ask for help",
+                        "ok_text": "Yes",
+                        "dismiss_text": "No"
+                    }
+                }
+            ]
+
+ */

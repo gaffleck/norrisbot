@@ -11,6 +11,7 @@
   "dependencies": {
     "fs": "0.0.1-security",
     "natural": "^0.5.4",
+    "request": "^2.83.0",
     "slackbots": "^0.3.0"
   }
 }
