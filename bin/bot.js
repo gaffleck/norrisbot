@@ -4,13 +4,14 @@
 
 var NorrisBot = require('../lib/norrisbot');
 var Brain = require('../lib/brain');
+require('../lib/server');
+var http = require('http');
 
 
 var token = process.env.SLACK_TOKEN;
 var dbPath = process.env.BOT_DB_PATH;
-var name = 'onboardingroboto';
+var name = 'day_1';
 var _brain = new Brain();
-
 var builtinPhrases = require('../builtins');
 
 console.log('learning...');
