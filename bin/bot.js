@@ -10,7 +10,8 @@ var http = require('http');
 
 var token = process.env.SLACK_TOKEN;
 var dbPath = process.env.BOT_DB_PATH;
-var name = rocess.env.NAME;
+var name = process.env.NAME;
+console.log('got this name '+name);
 var _brain = new Brain();
 var builtinPhrases = require('../builtins');
 
