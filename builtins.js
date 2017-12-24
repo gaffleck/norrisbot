@@ -13,8 +13,8 @@ module.exports = {
     'all tasks'
   ], 
   STARTNEWWORKFLOW: [
-    'Create new workflow', 
-    'Create a new workflow'
+    'Create new * workflow', 
+    'Create a new workflow *'
   ] 
   
 };
