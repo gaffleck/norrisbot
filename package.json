@@ -13,7 +13,10 @@
     "express": "^4.16.2",
     "fs": "0.0.1-security",
     "natural": "^0.5.4",
+    "node-rest-client": "^3.1.0",
+    "promise": "^8.0.1",
     "request": "^2.83.0",
+    "request-promise": "^4.2.2",
     "simple-oauth2": "^1.5.0",
     "slackbots": "^0.3.0"
   }

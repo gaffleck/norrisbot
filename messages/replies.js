@@ -12,6 +12,11 @@ var messages = {
             text:"OK I've started a new workflow for ${WORKFLOW_NAME}"
         }
     },
+    "GETALLWORKFLOWS":{
+        "EN":{
+            text:"Here is a list of workflows: "
+        }
+    },
 	"NOTFOUND": {
         "EN":
         {

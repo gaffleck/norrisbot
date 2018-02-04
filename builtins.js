@@ -15,6 +15,9 @@ module.exports = {
   STARTNEWWORKFLOW: [
     'Create new * workflow', 
     'Create a new workflow *'
-  ] 
+  ], 
+  GETALLWORKFLOWS:[
+    'Get all workflows'
+  ]
   
 };
