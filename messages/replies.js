@@ -21,6 +21,35 @@ var messages = {
             `
         }
     },
+    "CHANNEL_JOIN":{
+        "EN":{
+            text:"Hey - it looks like you need me to help you onboard a new employee. Are you ready to get started?",
+            "as_user":true,
+            "attachments": JSON.stringify( [
+                {
+                    "text": "Do you want to start now?",
+                    "fallback": "Start new onboarding",
+                    "callback_id": "start_workflow",
+                    "color": "#3AA3E3",
+                    "attachment_type": "default",
+                    "actions": [
+                        {
+                            "name": "selection",
+                            "text": "Let's Go!",
+                            "type": "button",
+                            "value": "start"
+                        },
+                        {
+                            "name": "selection",
+                            "text": "Later Plz",
+                            "type": "button",
+                            "value": "later"
+                        }]
+                    }
+                ]
+            )
+        }
+    },
 	"NOTFOUND": {
         "EN":
         {
