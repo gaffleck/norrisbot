@@ -12,6 +12,7 @@
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "fs": "0.0.1-security",
+    "mustache": "^2.3.0",
     "natural": "^0.5.4",
     "node-rest-client": "^3.1.0",
     "pouchdb": "^6.4.3",

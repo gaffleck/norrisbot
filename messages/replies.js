@@ -9,12 +9,16 @@ var messages = {
     },
     "STARTNEWWORKFLOW":{
         "EN":{
-            text:"OK I've started a new workflow for ${WORKFLOW_NAME}"
+            text:"OK I've started a new workflow."
         }
     },
     "GETALLWORKFLOWS":{
         "EN":{
-            text:"Here is a list of workflows: "
+            text:`Here is a list of workflows: 
+            {{#workflows}}
+            {{process.name}}\n
+            {{/workflows}}
+            `
         }
     },
 	"NOTFOUND": {
